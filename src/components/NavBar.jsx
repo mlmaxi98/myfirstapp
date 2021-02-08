@@ -1,28 +1,36 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom'
-import {StyledNavBar} from '../styled/styledNavBar.jsx'
+import '../styled/styledNavBar.css'
 import LogoDota from '../Logos/logodota.png'
 function NavBar(){
     return(
-        <StyledNavBar>
-            <div className = 'logo'>
-                <NavLink to='/'>
-                    <img src = {LogoDota} alt=''/>
-                </NavLink>
-            </div>
-            <div className = 'Menu'>
-                <div>
-                    <NavLink to='/Heroes'>
-                        <h1>Heroes</h1>
+        <div className = 'container'>
+            <nav className = 'menu'>
+
+                <div className = 'logo'>
+                    <NavLink to='/'>
+                        <img src = {LogoDota} alt=''/>
                     </NavLink>
                 </div>
-                <div>
-                    <NavLink to='/Parches'>
-                        <h1>Parches</h1>
-                    </NavLink>
-                </div>
-            </div>
-        </StyledNavBar>
+                <ul className='enlaces'>
+                    <li>
+                        <NavLink to='/Heroes'>
+                            <h1>HEROES</h1>
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/Meta'>
+                            <h1>META</h1>
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/Mapa'>
+                            <h1>MAPA</h1>
+                        </NavLink>
+                    </li>
+                </ul>
+            </nav>
+        </div>    
     )
 }
 export default NavBar;

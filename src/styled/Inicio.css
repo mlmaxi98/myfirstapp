@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Text','Libre Baskerville', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    text-decoration: none;
+    font-size: 15px;
+}
+.fondo{
+    width: 100%;
+    height: 100%;
+}

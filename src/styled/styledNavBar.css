@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Text','Libre Baskerville', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu {
+    /* border: 2px solid blue; */
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 35%, rgba(45, 45, 45, 1) 100%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.enlaces {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    list-style: none;
+}
+.enlaces h1:hover{
+    color: white;
+}
+
+/* .Menu {
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+} */
