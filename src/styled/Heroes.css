@@ -8,6 +8,20 @@
     font-size: 15px;
 }
 .fondo{
+    position:absolute;
     width: 100%;
     height: 100%;
+}
+.heroes-a{
+    display: flex;
+    list-style: none;
+}
+
+.heroes-a img{
+    margin: 10px 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+    width: 140px;
+    height: 80px;
+    
 }
